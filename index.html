@@ -13,18 +13,24 @@
             background-color: #621B80;
             color: #FFFFFF;
             text-align: center;
-            max-width: 800px ;
+            max-width: 800px;
             margin: 0 auto;
             padding: 16px;
-            border: 5px solid
-            #3e055f
+            border: 5px solid #3e055f; /* Corrigido o ponto e vírgula */
         }
         main {
             background-color: #FFFFFF;
             color: #621B80;
-             max-width: 800px ;
+            max-width: 800px;
             margin: 0 auto;
             padding: 16px;
+        }
+        /* Dica opcional: Estilize sua imagem se necessário */
+        main img {
+            max-width: 100%; /* Faz a imagem não transbordar o contêiner */
+            height: auto;
+            display: block; /* Remove espaços em branco indesejados abaixo */
+            margin: 0 auto 16px; /* Centraliza a imagem e adiciona espaço abaixo */
         }
     </style>
 </head>
@@ -34,9 +40,12 @@
         <p>Vou compartilhar conhecimentos sobre cuidado e beleza feminina</p>
     </header>
     <main>
-        <h2>Meu primeiro post</h2>
-        <p>Por: Yasmim Vitória</p>
-        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas sobre autocuidado em geral e curiosidades da área de estética.</p>
+        <!-- CORREÇÃO 1: A tag <img> agora está devidamente fechada com '>' no final -->
+        <img src="imagem-blog.png" 
+             alt="Ícone quadrado em roxo profundo para blog de beleza e cuidados pessoais, apresentando folhas brancas e folhas estilizadas ao redor de um pincel minimalista no centro">
+
+        <!-- CORREÇÃO 2: O texto de boas-vindas está agora dentro de um parágrafo único e correto -->
+        <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas sobre autocuidado em geral e curiosidades da área de estética</p>
     </main>
 </body>
 </html>
